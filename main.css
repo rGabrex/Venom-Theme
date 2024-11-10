@@ -2,10 +2,10 @@
     --main-color: #ffffffce;
     --hover-color: #000000;
     --success-color: #cacaca;
-    --danger-color: #b10202;
+    --danger-color: #B13D4C;
     --channel-unread: var(--main-color);
-    --channel-color: #8E9599;
-    --muted-color: #0C1520;
+    --channel-color: #8E9599da;
+    --muted-color: #0C152018;
     --server-unread: var(--main-color);
     --channel-text-selected: rgb(224, 224, 224);
     --url-color: var(--main-color);
@@ -35,7 +35,7 @@
     --background-grayscale: 0%;
     --background-sepia: 0%;
     --background-blur: 0px;
-    --backdrop-overlay: #1E303A;
+    --backdrop-overlay: #1e303ab6;
     --backdrop-image: var(--background-image);
     --backdrop-position: var(--background-position);
     --backdrop-size: var(--background-size);
