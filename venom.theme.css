@@ -1,0 +1,64 @@
+﻿/**
+ * @name Venom Theme
+ * @author rGabrex
+ * @version 1.0.0
+ * @description Theme base on Marvel character "Venom"
+ *
+ *  ██    ██ ███████ ███    ██  ██████  ███    ███ 
+ *  ██    ██ ██      ████   ██ ██    ██ ████  ████ 
+ *  ██    ██ █████   ██ ██  ██ ██    ██ ██ ████ ██ 
+ *  ██    ██ ██      ██  ██ ██ ██    ██ ██  ██  ██ 
+ *   ██████  ███████ ██   ████  ██████  ██      ██ by rGabrex
+ *
+*/
+
+/* Credits to ClearVision Team for making the original theme. */
+
+/* GitHub Repository Import */
+@import url(https://github.com/rGabrex/VenomTheme);
+
+/* Fonts Import */
+@import url(https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Potta+One&display=swap);
+
+
+
+:root {
+    /* Main Colors */
+    --main-color: #ffffffce; /* Main color of the app (rgb, hex, hsl), default: #ffffffce */
+    --hover-color: #000000; /* Hover color (rgb, hex, hsl), default: #000000 */
+    --success-color: #cacaca; /* Succes color (rgb, hex, hsl), default: #cacaca */
+    --danger-color: #b10202; /* Danger color (rgb, hex, hsl), default: #b10202 */
+
+    /* User Status Related Colors */
+    --online-color: #ffffff; /* User Online color (rgb, hex, hsl), default: #ffffff */
+    --idle-color: hsl(0, 0%, 53%); /* User Idle color (rgb, hex, hsl), default: hsl(0, 0%, 53%) */
+    --dnd-color: hsl(0, 100%, 50%); /* User dnd color (rgb, hex, hsl), default: hsl(0, 100%, 50%) */
+    --streaming-color: hsl(263, 30%, 53%); /* User Streaming color (rgb, hex, hsl), default: hsl(263, 30%, 53%) */
+    --offline-color: #464646; /* User Offline color (rgb, hex, hsl), default: #464646 */
+
+    /* General and Text Colors */
+    --main-font: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif; /* Main font for app texts  */
+    --code-font: Consolas, Liberation Mono, Menlo, Courier, monospace; /* Font for codeblocks  */
+    --text-normal: #ebebeb; /* Color of default discord text, default: #ebebeb */
+    --text-muted: rgb(158, 158, 158); /* Color of default discord placeholder text, default: rgb(158, 158, 158) */
+    --url-color: var(--main-color); /* The color of url links, default: var(--main-color)*/
+    --channels-width: 220px; /* Channel list width (240px for Discord default), default: 220px */
+    --members-width: 240px; /* Member list width, default: 240px */
+    --server-unread: var(--main-color); /* Color of the icon for servers with unread messages, default: var(--main-color) */
+
+    /* Discord Background */
+    --background-shading: 100%; /* app background shading (0 for complete smoothness) [default: 100%] */
+    --background-overlay: rgba(0, 0, 0, 0.6); /* app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
+    --background-image: url(https://wallpapers.com/images/featured/4k-ultra-hd-venom-xdpc5292nflqxj7l.jpg); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
+    --background-position: center; /* app background position [default: center] */
+    --background-size: cover; /* app background size [default: cover] */
+    --background-repeat: no-repeat; /* app background repeat [default: no-repeat] */
+    --background-attachment: fixed; /* app background attachment [default: fixed] */
+    --background-brightness: 100%; /* app background brightness (< 100% for darken, > 100% for lighten) [default: 100%] */
+    --background-contrast: 100%; /* app background contrast [default: 100%] */
+    --background-saturation: 100%; /* app background saturation [default: 100%] */
+    --background-invert: 0%; /* app background invert (0 - 100%)  [default: 0%] */
+    --background-grayscale: 0%; /* app background grayscale ( 0 - 100%) [default: 0%] */
+    --background-sepia: 0%; /* app background sepia (0 - 100%) [default: 0%] */
+    --background-blur: 0px; /* app background blur [default: 0px] */
+}
