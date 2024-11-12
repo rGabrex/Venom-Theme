@@ -73,7 +73,7 @@
   --channel-text-selected: rgb(224, 224, 224); /* Selected channel text color  [default: rgb(224, 224, 224)] */
   --muted-color: #0c152018; /*Muted channel color  [default: rgba(77, 77, 77, 0.1);]*/
 
-  /* Backdrop */
+  /* Backdrop */ 
   --backdrop-overlay: #1e303ab6; /* modal backdrop overlay color/gradient [default: hsla(0, 0%, 35%, 0.671)] */
   --backdrop-image: var(--background-image); /* modal backdrop image (link must be HTTPS) [default: var(--background-image)] */
   --backdrop-position: var(--background-position); /* modal backdrop position [default: var(--background-position)] */

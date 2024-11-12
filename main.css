@@ -96,3 +96,16 @@
 .avatarStack_c51b4e {
     background-color: var(--popout-color)
 }
+
+.guilds_a4d4d9 {
+    position: relative;
+    width: 60px;
+    flex-shrink: 0;
+}
+
+.guilds_a4d4d9, .wrapper_fea3ef {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--hover-color)
+}
+
