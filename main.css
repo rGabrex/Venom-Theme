@@ -1,4 +1,11 @@
-:root {
+/**
+ * @name Venom Theme
+ * @author rGabrex
+ * @version 1.0
+ * @description Discord Theme based on Venom, highly customizable
+ */
+
+ :root {
     --main-color: #ffffffce;
     --hover-color: #000000;
     --success-color: #cacaca;
@@ -14,7 +21,7 @@
     --dnd-color: #752126;
     --offline-color: #000000;
     --streaming-color: hsl(263, 30%, 53%);
-    --main-font: Potta One, Helvetica Neue, Helvetica, Arial, sans-serif;
+    --main-font: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif;
     --code-font: Consolas, Liberation Mono, Menlo, Courier, monospace;
     --font-display: var(--main-font);
     --text-normal: #EBDEDB;
@@ -82,29 +89,31 @@
     --bd-blue-hover: var(--hover-color);
     --bd-blue-active: var(--hover-color);
     --font-primary: var(--main-font);
-    --font-code: var(--code-font)
-}
-
-.guilds_a4d4d9 {
+    --font-code: var(--code-font);
+    --explore-icon: url(icons/explore.png);
+  }
+  
+  .guilds_a4d4d9 {
     position: relative;
     width: 72px;
     flex-shrink: 0;
-}
-
-.wrapper_fea3ef {
+  }
+  
+  .wrapper_fea3ef {
     display: flex;
     flex-direction: column;
-}
-
-.guilds_a4d4d9, .wrapper_fea3ef {
+  }
+  
+  .guilds_a4d4d9, .wrapper_fea3ef {
     background-color: var(--hover-color)
-}
-
-.unreadMentionsFixedFooter_fea3ef {
+  }
+  
+  .unreadMentionsFixedFooter_fea3ef {
     bottom: 72px;
-}
-
-.unreadMentionsIndicatorBottom_fea3ef {
+    padding-bottom: 12px;
+  }
+  
+  .unreadMentionsIndicatorBottom_fea3ef {
     position: absolute;
     left: 0;
     right: 0;
@@ -115,6 +124,50 @@
     pointer-events: none;
     width: 72px;
     box-sizing: border-box;
-    background-color: var(--modal-color);
-}
-
+    background-color: var(--hover-color);
+  }
+  
+  .footer_aa1bff {
+    width: 72px;
+    padding-bottom: 4px;
+    padding-top: 8px;
+    position: relative;
+    background: var(--hover-color, #000000);
+  }
+  
+  .wrapper_c5f96a {
+    box-sizing: border-box;
+    position: relative;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 0 15px 8px var(--backdrop-overlay);
+  }
+  
+  .wrapper_c5f96a::after {
+    content: '';
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 15px 8px var(--backdrop-overlay);
+    border-radius: 50%;
+    pointer-events: none; 
+  }
+  
+  .circleIconButton_db6521 {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 48px;
+    height: 48px;
+    transition: color 1s ease-out, 1s ease-out;
+    color: var(--main-color);
+    background-color: var(--backdrop-overlay);
+  }
+   
+  
+  
+  
