@@ -91,9 +91,12 @@
     flex-shrink: 0;
 }
 
-.guilds_a4d4d9, .wrapper_fea3ef {
+.wrapper_fea3ef {
     display: flex;
     flex-direction: column;
+}
+
+.guilds_a4d4d9, .wrapper_fea3ef {
     background-color: var(--hover-color)
 }
 
