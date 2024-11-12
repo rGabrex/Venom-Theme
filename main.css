@@ -85,21 +85,9 @@
     --font-code: var(--code-font)
 }
 
-.appMount_ea7e65 {
-    background: var(--background-overlay)
-}
-
-.closedFolderIconWrapper_bc7085 {
-    fill: var(--muted-color)
-}
-
-.avatarStack_c51b4e {
-    background-color: var(--popout-color)
-}
-
 .guilds_a4d4d9 {
     position: relative;
-    width: 60px;
+    width: 72px;
     flex-shrink: 0;
 }
 
@@ -107,5 +95,23 @@
     display: flex;
     flex-direction: column;
     background-color: var(--hover-color)
+}
+
+.unreadMentionsFixedFooter_fea3ef {
+    bottom: 72px;
+}
+
+.unreadMentionsIndicatorBottom_fea3ef {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    overflow: hidden;
+    padding: 8px;
+    height: 40px;
+    pointer-events: none;
+    width: 72px;
+    box-sizing: border-box;
+    background-color: var(--modal-color);
 }
 
