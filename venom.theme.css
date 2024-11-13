@@ -37,7 +37,7 @@
     --offline-color: #000000; /* User Offline color (rgb, hex, hsl), default: #464646 */
 
     /* General and Text Colors */
-    --main-font: Potta One, Helvetica Neue, Helvetica, Arial, sans-serif; /* Main font for app texts  */
+    --main-font: Permanent Marker, Helvetica Neue, Helvetica, Arial, sans-serif; /* Main font for app texts  */
     --code-font: Consolas, Liberation Mono, Menlo, Courier, monospace; /* Font for codeblocks  */
     --text-normal: #EBDEDB; /* Color of default discord text, default: #ebebeb */
     --text-muted: #8E9599; /* Color of default discord placeholder text, default: rgb(158, 158, 158) */
