@@ -1,11 +1,4 @@
-/**
- * @name Venom Theme
- * @author rGabrex
- * @version 1.0
- * @description Discord Theme based on Venom, highly customizable
- */
-
- :root {
+:root {
   --main-color: #ffffffce;
   --hover-color: #000000;
   --success-color: #cacaca;
@@ -144,17 +137,6 @@
   animation-direction: reverse
 }
 
-.app_a01fb1 {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: var(--background-tertiary);
-  display: flex;
-  flex-direction: column;
-}
-
 .container_a4d4d9 .base_a4d4d9 {
   border-radius: 0
 }
@@ -229,9 +211,8 @@
   flex-direction: column;
 }
 
-.guilds_a4d4d9, .wrapper_fea3ef {
-  background-color: var(--hover-color);
-  box-shadow: 0 0 15px 10px var(--hover-color);
+.layer_d4b6c5 .wrapper_fea3ef {
+  background-color: rgba(0,0,0,0)
 }
 
 .unreadMentionsIndicatorBottom_fea3ef {
@@ -249,11 +230,7 @@
 }
 
 .footer_aa1bff {
-  width: 72px;
-  padding-bottom: 4px;
-  padding-top: 8px;
-  position: relative;
-  background: var(--hover-color, #000000);
+  background: rgba(0, 0, 0, calc(var(--background-shading) * 0.3))
 }
 
 .wrapper_c5f96a {
@@ -315,7 +292,11 @@
   white-space: nowrap;
 }
  
-.theme-dark .scroller_c47fa9 {
+.privateChannels_f0963d {
+  background: #141414d0;
+}
+
+.privateChannels_f0963d .scroller_c47fa9 {
   background: #141414d0;
 }
 
@@ -356,12 +337,46 @@
   color: var(--main-color);
 }
 
-.theme-dark .themed_fc4f04 {
-  background: var(--hover-color);
+.interactive_c91bad.interactiveSelected_c91bad {
+  background: var(--main-color);
+}
+
+.interactive_c91bad.interactiveSelected_c91bad:after {
+  right: 0;
+  background: var(--main-color);
+  animation: cv-channel-select .3s ease-in-out
+}
+
+.interactive_c91bad.interactiveSelected_c91bad .linkButtonIcon_c91bad,.interactive_c91bad.interactiveSelected_c91bad .name_ec8679 {
+  color: #fff
+}
+
+.interactive_c91bad.interactiveSelected_c91bad .activityEmoji_c91bad,.interactive_c91bad.interactiveSelected_c91bad .icon_ad923e {
+  filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.7))
+}
+
+.interactive_c91bad.interactiveSelected_c91bad .activityText_c91bad strong {
+  color: #fff
+}
+
+.interactive_c91bad.interactiveSelected_c91bad .closeButton_c91bad {
+  opacity: .7
+}
+
+.interactive_c91bad.interactiveSelected_c91bad .closeButton_c91bad:hover {
+  opacity: 1
+}
+
+.interactive_c91bad .highlighted_ec8679 .name_ec8679 {
+  color: #fff
 }
 
 .searchBar_e0840f {
   margin: 16px 20px 8px 30px;
   flex: none;
   background: var(--hover-color);
+}
+
+.searchBar_e0840f:focus-within {
+  box-shadow: 0 0 2px 2px var(--main-color)
 }
