@@ -6,260 +6,362 @@
  */
 
  :root {
-    --main-color: #ffffffce;
-    --hover-color: #000000;
-    --success-color: #cacaca;
-    --danger-color: #B13D4C;
-    --channel-unread: var(--main-color);
-    --channel-color: #8E9599da;
-    --muted-color: #0C152018;
-    --server-unread: var(--main-color);
-    --channel-text-selected: rgb(224, 224, 224);
-    --url-color: var(--main-color);
-    --online-color: #EBDEDB;
-    --idle-color: #8E9599;
-    --dnd-color: #752126;
-    --offline-color: #000000;
-    --streaming-color: hsl(263, 30%, 53%);
-    --main-font: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif;
-    --code-font: Consolas, Liberation Mono, Menlo, Courier, monospace;
-    --font-display: var(--main-font);
-    --text-normal: #EBDEDB;
-    --text-muted: #8E9599;
-    --channels-width: 220px;
-    --members-width: 240px;
-    --background-shading: 100%;
-    --background-overlay: #0C1520;
-    --background-image: url(https://github.com/rGabrex/Venom-Theme/pics/venom_background.jpg);
-    --background-position: center;
-    --background-size: cover;
-    --background-repeat: no-repeat;
-    --background-attachment: fixed;
-    --background-brightness: 80%;
-    --background-contrast: 100%;
-    --background-saturation: 100%;
-    --background-invert: 0%;
-    --background-grayscale: 0%;
-    --background-sepia: 0%;
-    --background-blur: 0px;
-    --backdrop-overlay: #1e303ab6;
-    --backdrop-image: var(--background-image);
-    --backdrop-position: var(--background-position);
-    --backdrop-size: var(--background-size);
-    --backdrop-repeat: var(--background-repeat);
-    --backdrop-attachment: var(--background-attachment);
-    --backdrop-brightness: var(--background-brightness);
-    --backdrop-contrast: var(--background-contrast);
-    --backdrop-saturation: var(--background-saturation);
-    --backdrop-invert: var(--background-invert);
-    --backdrop-grayscale: var(--background-grayscale);
-    --backdrop-sepia: var(--background-sepia);
-    --backdrop-blur: var(--background-blur);
-    --user-popout-image: var(--background-image);
-    --user-popout-position: var(--background-position);
-    --user-popout-size: var(--background-size);
-    --user-popout-repeat: var(--background-repeat);
-    --user-popout-attachment: var(--background-attachment);
-    --user-popout-brightness: var(--background-brightness);
-    --user-popout-contrast: var(--background-contrast);
-    --user-popout-saturation: var(--background-saturation);
-    --user-popout-invert: var(--background-invert);
-    --user-popout-grayscale: var(--background-grayscale);
-    --user-popout-sepia: var(--background-sepia);
-    --user-popout-blur: calc(var(--background-blur) + 3px);
-    --user-popout-overlay: rgba(0, 0, 0, 0.65);
-    --user-modal-image: var(--background-image);
-    --user-modal-position: var(--background-position);
-    --user-modal-size: var(--background-size);
-    --user-modal-repeat: var(--background-repeat);
-    --user-modal-attachment: var(--background-attachment);
-    --user-modal-brightness: var(--background-brightness);
-    --user-modal-contrast: var(--background-contrast);
-    --user-modal-saturation: var(--background-saturation);
-    --user-modal-invert: var(--background-invert);
-    --user-modal-grayscale: var(--background-grayscale);
-    --user-modal-sepia: var(--background-sepia);
-    --user-modal-blur: calc(var(--background-blur) + 3px);
-    --home-icon: url(Pics/icon.jpeg);
-    --home-position: center;
-    --home-size: 40px;
-    --popout-color: #0c1520de;
-    --modal-color: #0c1520de;
-    --bd-blue: var(--main-color);
-    --bd-blue-hover: var(--hover-color);
-    --bd-blue-active: var(--hover-color);
-    --font-primary: var(--main-font);
-    --font-code: var(--code-font);
-    --explore-icon: url(https://github.com/rGabrex/Venom-Theme/icons/explorer.svg);
-  }
-  
-  .appMount_ea7e65 {
-    background: var(--hover-color)
-  }
-  
-  .app_a01fb1,body {
-    background: rgba(0,0,0,0)
-  }
-  
-  .bg_d4b6c5 {
-    background: var(--background-image) var(--background-position)/var(--background-size) var(--background-repeat) var(--background-attachment);
-    filter: grayscale(var(--background-grayscale)) sepia(var(--background-sepia)) invert(var(--background-invert)) brightness(var(--background-brightness)) contrast(var(--background-contrast)) saturate(var(--background-saturation)) blur(var(--background-blur));
-    z-index: -9999
-  }
-  
-  .guilds_a4d4d9 {
-    position: relative;
-    width: 72px;
-    flex-shrink: 0;
-  }
-  
-  .wrapper_fea3ef {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .guilds_a4d4d9, .wrapper_fea3ef {
-    background-color: var(--hover-color);
-    box-shadow: 0 0 15px 10px var(--hover-color);
-  }
-  
-  .unreadMentionsIndicatorBottom_fea3ef {
-    position: absolute;
-    left: 0;
-    right: 0;
-    z-index: 10;
-    overflow: hidden;
-    padding: 8px;
-    height: 40px;
-    pointer-events: none;
-    width: 72px;
-    box-sizing: border-box;
-    background-color: var(--hover-color);
-    box-shadow: 0 0 15px 5px var(--hover-color);
-  }
-  
-  .footer_aa1bff {
-    width: 72px;
-    padding-bottom: 4px;
-    padding-top: 8px;
-    position: relative;
-    background: var(--hover-color, #000000);
-  }
-  
-  .wrapper_c5f96a {
-    box-sizing: border-box;
-    position: relative;
-    width: 48px;
-    height: 48px;
-    cursor: pointer;
-    border-radius: 50%;
-    box-shadow: 0 0 15px 10px var(--backdrop-overlay);
-  }
-  
-  .wrapper_c5f96a::after {
-    content: '';
-    position: relative;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    pointer-events: none; 
-  }
-  
-  .circleIconButton_db6521 {
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    width: 48px;
-    height: 48px;
-    transition: color 1s ease-out, 1s ease-out;
-    color: var(--main-color);
-    background-color: var(--backdrop-overlay);
-  }
-  
-  .searchBar_f0963d {
-    position: relative;
-    z-index: 2;
-    flex: 0 0 auto;
-    padding: 0px 12px;
-    height: 48px;
-    display: flex;
-    align-items: center;
-    outline: 2px solid var(--main-color);
-    background: var(--hover-color);
-  }
-  
-  .searchBar_f0963d .searchBarComponent_f0963d {
-    width: 100%;
-    height: 28px;
-    overflow: hidden;
-    border-radius: 4px;
-    background-color: var(--backdrop-overlay);
-    box-shadow: 0 0 15px 6px var(--backdrop-overlay);
-    text-align: center;
-    text-overflow: ellipsis;
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 24px;
-    white-space: nowrap;
-  }
-   
-  .theme-dark .scroller_c47fa9 {
-    background: #141414;
-  }
-  
-  .channel_c91bad {
-    position: relative;
-    max-width: 224px;
-    margin-left: 6px;
-  }
-  
-  .interactive_c91bad {
-    transition: background 0.5s ease, color 0.5s ease;
-    display: flex;
-    align-items: center;
-    box-sizing: border-box;
-    width: 100%;
-    margin: 2px 0;
-    color: #ffffff;
-    background-color: var(--dnd-color);
-    background: linear-gradient(to bottom, var(--dnd-color), var(--hover-color));
-  }
-  
-  .interactive_c91bad:hover {
-    background: var(--main-color);
-    color: var(--hover-color); 
-  }
-  
-  .interactive_c91bad:active {
-    background: var(--danger-color);
-    box-shadow: inset 0 0 8px var(--dnd-color);
-    transform: scale(0.98);
-    color: var(--main-color)
-  }
-  
-  .interactiveSelected_c91bad {
-    color: var(--main-color);
-  }
-  
-  .theme-dark .themed_fc4f04 {
-    background: var(--hover-color);
-  }
-  
-  .tabBody_c2739c {
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    overflow: hidden;
-    transform: translatez(0);
-    background: rgb(0, 0, 0, 0.65);
-  }
-  
-  .searchBar_e0840f {
-    margin: 16px 20px 8px 30px;
-    flex: none;
-    background: var(--hover-color);
-  }
+  --main-color: #ffffffce;
+  --hover-color: #000000;
+  --success-color: #cacaca;
+  --danger-color: #B13D4C;
+  --channel-unread: var(--main-color);
+  --channel-color: #8E9599da;
+  --muted-color: #0C152018;
+  --server-unread: var(--main-color);
+  --channel-text-selected: rgb(224, 224, 224);
+  --url-color: var(--main-color);
+  --online-color: #EBDEDB;
+  --idle-color: #8E9599;
+  --dnd-color: #752126;
+  --offline-color: #000000;
+  --streaming-color: hsl(263, 30%, 53%);
+  --main-font: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  --code-font: Consolas, Liberation Mono, Menlo, Courier, monospace;
+  --font-display: var(--main-font);
+  --text-normal: #EBDEDB;
+  --text-muted: #8E9599;
+  --channels-width: 220px;
+  --members-width: 240px;
+  --background-shading: 100%;
+  --background-overlay: #0C1520;
+  --background-image: url(https://rgabrex.github.io/Venom-Theme/pics/venom_background.jpg);
+  --background-position: center;
+  --background-size: cover;
+  --background-repeat: no-repeat;
+  --background-attachment: fixed;
+  --background-brightness: 80%;
+  --background-contrast: 100%;
+  --background-saturation: 100%;
+  --background-invert: 0%;
+  --background-grayscale: 0%;
+  --background-sepia: 0%;
+  --background-blur: 0px;
+  --backdrop-overlay: #1e303ab6;
+  --backdrop-image: var(--background-image);
+  --backdrop-position: var(--background-position);
+  --backdrop-size: var(--background-size);
+  --backdrop-repeat: var(--background-repeat);
+  --backdrop-attachment: var(--background-attachment);
+  --backdrop-brightness: var(--background-brightness);
+  --backdrop-contrast: var(--background-contrast);
+  --backdrop-saturation: var(--background-saturation);
+  --backdrop-invert: var(--background-invert);
+  --backdrop-grayscale: var(--background-grayscale);
+  --backdrop-sepia: var(--background-sepia);
+  --backdrop-blur: var(--background-blur);
+  --user-popout-image: var(--background-image);
+  --user-popout-position: var(--background-position);
+  --user-popout-size: var(--background-size);
+  --user-popout-repeat: var(--background-repeat);
+  --user-popout-attachment: var(--background-attachment);
+  --user-popout-brightness: var(--background-brightness);
+  --user-popout-contrast: var(--background-contrast);
+  --user-popout-saturation: var(--background-saturation);
+  --user-popout-invert: var(--background-invert);
+  --user-popout-grayscale: var(--background-grayscale);
+  --user-popout-sepia: var(--background-sepia);
+  --user-popout-blur: calc(var(--background-blur) + 3px);
+  --user-popout-overlay: rgba(0, 0, 0, 0.65);
+  --user-modal-image: var(--background-image);
+  --user-modal-position: var(--background-position);
+  --user-modal-size: var(--background-size);
+  --user-modal-repeat: var(--background-repeat);
+  --user-modal-attachment: var(--background-attachment);
+  --user-modal-brightness: var(--background-brightness);
+  --user-modal-contrast: var(--background-contrast);
+  --user-modal-saturation: var(--background-saturation);
+  --user-modal-invert: var(--background-invert);
+  --user-modal-grayscale: var(--background-grayscale);
+  --user-modal-sepia: var(--background-sepia);
+  --user-modal-blur: calc(var(--background-blur) + 3px);
+  --home-icon: url(Pics/icon.jpeg);
+  --home-position: center;
+  --home-size: 40px;
+  --popout-color: #0c1520de;
+  --modal-color: #0c1520de;
+  --bd-blue: var(--main-color);
+  --bd-blue-hover: var(--hover-color);
+  --bd-blue-active: var(--hover-color);
+  --font-primary: var(--main-font);
+  --font-code: var(--code-font);
+  --explore-icon: url(https://rgabrex.github.io/Venom-Theme/icons/explorer.svg);
+}
+
+.appMount_ea7e65 {
+  background: var(--hover-color)
+}
+
+.app_a01fb1,body {
+  background: rgba(0,0,0,0) !important;
+} 
+
+.bg_d4b6c5 {
+  background: var(--background-image) var(--background-position)/var(--background-size) var(--background-repeat) var(--background-attachment);
+  filter: grayscale(var(--background-grayscale)) sepia(var(--background-sepia)) invert(var(--background-invert)) brightness(var(--background-brightness)) contrast(var(--background-contrast)) saturate(var(--background-saturation)) blur(var(--background-blur));
+  z-index: -9999
+}
+
+.appMount_ea7e65 .layers_d4b6c5,.appMount_ea7e65 .layer_d4b6c5 {
+  background: rgba(0,0,0,0)
+}
+
+.loading_cea94f {
+  background-color: rgba(0,0,0,0)
+}
+
+.loading_cea94f:before,.loading_cea94f:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 3px solid rgba(0,0,0,0);
+  border-radius: 50%;
+  margin: auto;
+  filter: drop-shadow(0 0 3px var(--main-color));
+  animation: cv-spin 1s ease-in-out infinite
+}
+
+.loading_cea94f:before {
+  height: 26px;
+  width: 26px;
+  border-left-color: var(--main-color);
+  border-right-color: var(--main-color)
+}
+
+.loading_cea94f:after {
+  height: 16px;
+  width: 16px;
+  border-top-color: var(--main-color);
+  border-bottom-color: var(--main-color);
+  animation-direction: reverse
+}
+
+.app_a01fb1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--background-tertiary);
+  display: flex;
+  flex-direction: column;
+}
+
+.container_a4d4d9 .base_a4d4d9 {
+  border-radius: 0
+}
+
+.backdrop_e4f2ae {
+  background: var(--backdrop-overlay) !important
+}
+
+.theme-dark .directoryContainer_da3f59 {
+  background: rgba(0,0,0,0)
+}
+
+.theme-dark .directoryContainer_da3f59:before {
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  z-index: -1;
+  background: var(--background-image) var(--background-position)/var(--background-size) var(--background-repeat) var(--background-attachment);
+  filter: grayscale(var(--background-grayscale)) sepia(var(--background-sepia)) invert(var(--background-invert)) brightness(var(--background-brightness)) contrast(var(--background-contrast)) saturate(var(--background-saturation)) blur(var(--background-blur))
+}
+
+.header_bd05f1 {
+  background-color: rgba(0,0,0,0)
+}
+
+.header_bd05f1:before {
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  background: var(--background-image) var(--background-position)/var(--background-size) var(--background-repeat) var(--background-attachment);
+  filter: grayscale(var(--background-grayscale)) sepia(var(--background-sepia)) invert(var(--background-invert)) brightness(var(--background-brightness)) contrast(var(--background-contrast)) saturate(var(--background-saturation)) blur(var(--background-blur))
+}
+
+.header_bd05f1:after {
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  background: var(--background-overlay)
+}
+
+.theme-dark .directoryContainer_da3f59:before {
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  z-index: -1;
+  background: var(--background-image) var(--background-position)/var(--background-size) var(--background-repeat) var(--background-attachment);
+  filter: grayscale(var(--background-grayscale)) sepia(var(--background-sepia)) invert(var(--background-invert)) brightness(var(--background-brightness)) contrast(var(--background-contrast)) saturate(var(--background-saturation)) blur(var(--background-blur))
+}
+
+.guilds_a4d4d9 {
+  position: relative;
+  width: 72px;
+  flex-shrink: 0;
+}
+
+.wrapper_fea3ef {
+  display: flex;
+  flex-direction: column;
+}
+
+.guilds_a4d4d9, .wrapper_fea3ef {
+  background-color: var(--hover-color);
+  box-shadow: 0 0 15px 10px var(--hover-color);
+}
+
+.unreadMentionsIndicatorBottom_fea3ef {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  padding: 8px;
+  height: 40px;
+  pointer-events: none;
+  width: 72px;
+  box-sizing: border-box;
+  background-color: var(--hover-color);
+  box-shadow: 0 0 15px 5px var(--hover-color);
+}
+
+.footer_aa1bff {
+  width: 72px;
+  padding-bottom: 4px;
+  padding-top: 8px;
+  position: relative;
+  background: var(--hover-color, #000000);
+}
+
+.wrapper_c5f96a {
+  box-sizing: border-box;
+  position: relative;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0 0 15px 10px var(--backdrop-overlay);
+}
+
+.wrapper_c5f96a::after {
+  content: '';
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  pointer-events: none; 
+}
+
+.circleIconButton_db6521 {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 48px;
+  height: 48px;
+  transition: color 1s ease-out, 1s ease-out;
+  color: var(--main-color);
+  background-color: var(--backdrop-overlay);
+}
+
+.searchBar_f0963d {
+  position: relative;
+  z-index: 2;
+  flex: 0 0 auto;
+  padding: 0px 12px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  outline: 2px solid var(--main-color);
+  background: var(--hover-color);
+}
+
+.searchBar_f0963d .searchBarComponent_f0963d {
+  width: 100%;
+  height: 28px;
+  border-radius: 4px;
+  background-color: var(--backdrop-overlay);
+  box-shadow: 0 0 15px 6px var(--backdrop-overlay);
+  text-align: center;
+  text-overflow: ellipsis;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  white-space: nowrap;
+}
+ 
+.theme-dark .scroller_c47fa9 {
+  background: #141414d0;
+}
+
+.channel_c91bad {
+  position: relative;
+  max-width: 224px;
+  margin-left: 6px;
+}
+
+.interactive_c91bad {
+  transition: background 0.5s ease, color 0.5s ease;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 2px 0;
+  color: #ffffff;
+  background-color: var(--dnd-color);
+  background: linear-gradient(to bottom, var(--dnd-color), var(--hover-color));
+}
+
+.interactive_c91bad:hover {
+  transform: scale(1.05);
+  width: 90%;
+  margin-left: 12px;
+  background: var(--main-color);
+  color: var(--hover-color); 
+}
+
+.interactive_c91bad:active {
+  background: var(--danger-color);
+  box-shadow: inset 0 0 8px var(--dnd-color);
+  transform: scale(0.98);
+  color: var(--main-color)
+}
+
+.interactiveSelected_c91bad {
+  color: var(--main-color);
+}
+
+.theme-dark .themed_fc4f04 {
+  background: var(--hover-color);
+}
+
+.searchBar_e0840f {
+  margin: 16px 20px 8px 30px;
+  flex: none;
+  background: var(--hover-color);
+}
