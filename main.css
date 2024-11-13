@@ -109,6 +109,17 @@ body,button,input,select,textarea,::placeholder {
   z-index: -9999
 }
 
+.container_bf550a {
+  height: 100%;
+  background: #141414d0;
+  box-shadow: 0 0 15px 5px var(--hover-color);
+}
+
+.outer_ac5d22 {
+  background-color: var(--channel-color);
+  border: 3px solid rgb(255, 255, 255);
+}
+
 .appMount_ea7e65 .layers_d4b6c5,.appMount_ea7e65 .layer_d4b6c5 {
   background: rgba(0,0,0,0)
 }
@@ -392,4 +403,88 @@ body,button,input,select,textarea,::placeholder {
 
 .searchBar_e0840f:focus-within {
   box-shadow: 0 0 2px 2px var(--main-color)
+}
+
+.theme-dark .themed_fc4f04 {
+  background: var(--hover-color);
+}
+
+.topPill_a0 .themed_a0.selected_a0.item_a0, .side_a0 .themed_a0.selected_a0.item_a0 {
+  background-color: var(--backdrop-overlay);
+}
+
+.tabBar_c2739c .addFriend_c2739c.addFriend_c2739c.addFriend_c2739c {
+  background-color: var(--success-color);
+  color: var(--background-overlay);
+  box-shadow: 0 0 12px 3px var(--main-color);
+}
+
+.tabBar_c2739c .addFriend_c2739c.addFriend_c2739c.addFriend_c2739c:hover {
+  background-color: var(--danger-color);
+  color: var(--background-overlay);
+  box-shadow: 0 0 10px 2px var(--danger-color);
+}
+
+.container_e462a4 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #141414d0;
+}
+
+.navItem_e462a4 {
+  transition: background 0.5s ease, color 0.5s ease;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--main-color);
+  background: var(--idle-color);
+}
+
+.navItem_e462a4.selected_e462a4 {
+  color: var(--hover-color);
+  background: var(--main-color);
+}
+
+.navItemIcon_e462a4 {
+  width: 24px;
+  height: 24px;
+  color: var(--backdrop-overlay);
+}
+
+.defaultColor_a595eb {
+  color: #fff;
+}
+
+.text-lg\/semibold_dc00ef {
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+.scroller_b91a2d {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: var(--hover-color);
+}
+
+.guildDetails_c73cee {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 40px 16px 16px;
+  background: var(--main-color);
+}
+
+.defaultColor_a595eb {
+  color: #000000;
+}
+
+.theme-dark .gradient_b97772 {
+  background: radial-gradient(var(--dnd-color), var(--hover-color));
 }
