@@ -30,7 +30,7 @@
     --members-width: 240px;
     --background-shading: 100%;
     --background-overlay: #0C1520;
-    --background-image: url(Pics/venom_background.jpg);
+    --background-image: url(https://github.com/rGabrex/Venom-Theme/pics/venom_background.jpg);
     --background-position: center;
     --background-size: cover;
     --background-repeat: no-repeat;
@@ -90,7 +90,7 @@
     --bd-blue-active: var(--hover-color);
     --font-primary: var(--main-font);
     --font-code: var(--code-font);
-    --explore-icon: url(icons/explore.png);
+    --explore-icon: url(https://github.com/rGabrex/Venom-Theme/icons/explorer.svg);
   }
   
   .appMount_ea7e65 {
