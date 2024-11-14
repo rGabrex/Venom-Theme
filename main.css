@@ -28,7 +28,7 @@
   --background-size: cover;
   --background-repeat: no-repeat;
   --background-attachment: fixed;
-  --background-brightness: 80%;
+  --background-brightness: 90%;
   --background-contrast: 100%;
   --background-saturation: 100%;
   --background-invert: 0%;
@@ -96,17 +96,32 @@ body,button,input,select,textarea,::placeholder {
 }
 
 .appMount_ea7e65 {
-  background: var(--hover-color)
+  background: transparent
 }
 
-.app_a01fb1,body {
+.app_a01fb1, body {
   background: rgba(0,0,0,0) !important;
 } 
 
-.bg_d4b6c5 {
+.bg_d4b6c5, body {
   background: var(--background-image) var(--background-position)/var(--background-size) var(--background-repeat) var(--background-attachment);
   filter: grayscale(var(--background-grayscale)) sepia(var(--background-sepia)) invert(var(--background-invert)) brightness(var(--background-brightness)) contrast(var(--background-contrast)) saturate(var(--background-saturation)) blur(var(--background-blur));
-  z-index: -9999
+  z-index: -9999;
+}
+
+.container_c2739c {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: transparent !important;
+}
+
+.nowPlayingColumn_c2739c {
+  flex: 0 1 30%;
+  min-width: 360px;
+  max-width: 420px;
+  background: transparent !important;
 }
 
 .container_bf550a {
@@ -121,15 +136,15 @@ body,button,input,select,textarea,::placeholder {
 }
 
 .appMount_ea7e65 .layers_d4b6c5, .appMount_ea7e65 .layer_d4b6c5 {
-  background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0) !important
 }
 
 .layer_d4b6c5.baseLayer_d4b6c5 {
-  background-color: transparent;
+  background-color: transparent !important
 }
 
 .loading_cea94f {
-  background-color: rgba(0,0,0,0)
+  background-color: rgba(0,0,0,0) !important
 }
 
 .loading_cea94f:before,.loading_cea94f:after {
@@ -162,7 +177,7 @@ body,button,input,select,textarea,::placeholder {
 }
 
 .container_a4d4d9 .base_a4d4d9 {
-  border-radius: 0
+  border-radius: 0;
 }
 
 .backdrop_e4f2ae {
@@ -237,6 +252,11 @@ body,button,input,select,textarea,::placeholder {
 
 .layer_d4b6c5 .wrapper_fea3ef {
   background-color: rgba(0,0,0,0)
+}
+
+.circleIconButton_db6521.selected_db6521 {
+  color: var(--hover-color);
+  background-color: var(--main-color);
 }
 
 .unreadMentionsIndicatorBottom_fea3ef {
