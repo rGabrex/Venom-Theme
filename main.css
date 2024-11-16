@@ -73,7 +73,7 @@
   --user-modal-grayscale: var(--background-grayscale);
   --user-modal-sepia: var(--background-sepia);
   --user-modal-blur: calc(var(--background-blur) + 3px);
-  --home-icon: url(Pics/icon.jpeg);
+  --home-icon: url(https://rgabrex.github.io/Venom-Theme/icons/home-button.svg);
   --home-position: center;
   --home-size: 40px;
   --popout-color: #0c1520de;
@@ -111,6 +111,16 @@ body,button,input,select,textarea,::placeholder {
   background: var(--background-image) var(--background-position)/var(--background-size) var(--background-repeat) var(--background-attachment);
   filter: grayscale(var(--background-grayscale)) sepia(var(--background-sepia)) invert(var(--background-invert)) brightness(var(--background-brightness)) contrast(var(--background-contrast)) saturate(var(--background-saturation)) blur(var(--background-blur));
   z-index: -9999;
+}
+
+.childWrapper_f90abb>svg {
+  width: 100%;
+  height: 100%;
+  background: var(--home-icon) var(--home-position)/var(--home-size) no-repeat
+}
+
+.childWrapper_f90abb>svg>path {
+  display: none
 }
 
 .container_c2739c {

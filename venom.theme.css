@@ -63,7 +63,7 @@
     --background-blur: 0px; /* app background blur [default: 0px] */
 
     /* Home Icon */
-  --home-icon: url(Pics/icon.jpeg); /* home button icon (link must be HTTPS) [default: url(https://i.imgur.com/3Zbsjz0.jpg)]*/
+  --home-icon: url(https://rgabrex.github.io/Venom-Theme/icons/home-button.svg); /* home button icon (link must be HTTPS) [default: url(https://i.imgur.com/3Zbsjz0.jpg)]*/
   --home-position: center; /* home button icon position [default: center] */
   --home-size: 40px; /* home button icon size [default: 40px] */
 
