@@ -73,7 +73,7 @@
   --user-modal-grayscale: var(--background-grayscale);
   --user-modal-sepia: var(--background-sepia);
   --user-modal-blur: calc(var(--background-blur) + 3px);
-  --home-icon: url(https://rgabrex.github.io/Venom-Theme/icons/home-button.svg);
+  --home-icon: url(https://rgabrex.github.io/Venom-Theme/icons/home.svg);
   --home-position: center;
   --home-size: 40px;
   --popout-color: #0c1520de;
@@ -104,13 +104,24 @@ body,button,input,select,textarea,::placeholder {
 }
 
 .app_a01fb1, body {
-  background: rgba(0,0,0,0) !important;
+  background: rgba(0,0,0,0.25) !important;
 } 
 
 .bg_d4b6c5, body {
   background: var(--background-image) var(--background-position)/var(--background-size) var(--background-repeat) var(--background-attachment);
   filter: grayscale(var(--background-grayscale)) sepia(var(--background-sepia)) invert(var(--background-invert)) brightness(var(--background-brightness)) contrast(var(--background-contrast)) saturate(var(--background-saturation)) blur(var(--background-blur));
   z-index: -9999;
+}
+
+.childWrapper_f90abb {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: var(--hover-color);
+}
+
+.wrapper_f90abb:hover .childWrapper_f90abb,
+.wrapper_f90abb.selected_f90abb .childWrapper_f90abb {
+  background-color: #fff;
+  color: var(--hover-color)
 }
 
 .childWrapper_f90abb>svg {
@@ -121,6 +132,15 @@ body,button,input,select,textarea,::placeholder {
 
 .childWrapper_f90abb>svg>path {
   display: none
+}
+
+.item_c4cd66 {
+  position: absolute;
+  display: block;
+  width: 8px;
+  border-radius: 0 4px 4px 0;
+  margin-left: -4px;
+  background-color: #fff;
 }
 
 .container_c2739c {
@@ -825,11 +845,12 @@ body,button,input,select,textarea,::placeholder {
   padding: 0 0 20px;
   flex: 0 0 auto;
   height: auto;
-  background: var(--hover-color);
+  background: #141414d0;
 }
 
 .member_cbd271 {
-  background: var(--main-color);
+  background: var(--hover-color);
+  border: 1.35px solid var(--main-color);
 }
 
 .selected_d808b0 .layout_d808b0 {
@@ -929,4 +950,13 @@ body,button,input,select,textarea,::placeholder {
 
 .actionIcon_f6f816 {
   color: #fff;
+}
+
+.button_adcaac .buttonColor_adcaac.buttonActive_adcaac, .button_adcaac.buttonColor_adcaac.buttonActive_adcaac {
+  background-color: #fff;
+  color: var(--hover-color);
+}
+
+.button_adcaac .buttonColor_adcaac.buttonActive_adcaac:hover, .button_adcaac.buttonColor_adcaac.buttonActive_adcaac:hover {
+  background-color: var(--danger-color);
 }
