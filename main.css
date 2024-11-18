@@ -86,7 +86,7 @@
   --explore-icon: url(https://rgabrex.github.io/Venom-Theme/icons/explorer.svg);
 }
 
-h1, h2, h3, h4, h5, h6, body {
+h1, h2, h3, h4, h5, h6, body, a {
   color: #fff !important;
 }
 
@@ -104,7 +104,7 @@ body,button,input,select,textarea,::placeholder {
 }
 
 .app_a01fb1, body {
-  background: rgba(0,0,0,0.25) !important;
+  background: rgba(0,0,0,0.50) !important;
 } 
 
 .bg_d4b6c5, body {
@@ -959,4 +959,43 @@ body,button,input,select,textarea,::placeholder {
 
 .button_adcaac .buttonColor_adcaac.buttonActive_adcaac:hover, .button_adcaac.buttonColor_adcaac.buttonActive_adcaac:hover {
   background-color: var(--danger-color);
+}
+
+.container_ecc04c {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: var(--hover-color);
+  border: 3px solid #fff;
+}
+
+.card_ae1fa2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px;
+  overflow: visible;
+  position: relative;
+  border: 3px solid #fff;
+  background-color: var(--hover-color);
+}
+
+.typeWindows_a934d8 {
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+  display: flex;
+  box-shadow: 0 0 12px 3px #000000;
+}
+
+.layer_d4b6c5 .wrapper_fea3ef {
+  background-color: var(--hover-color)
+}
+
+.footer_f8ec41 {
+  padding-bottom: 4px;
+  padding-top: 8px;
+  position: relative;
+  background: var(--hover-color);
 }
