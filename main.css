@@ -8,7 +8,7 @@
   --main-font: Permanent Marker, Helvetica Neue, Helvetica, Arial, sans-serif;
   --font-display: var(--main-font);
   --background-shading: 100%;
-  --background-overlay: #0c1520;
+  --secondary-blue-color: #0c1520;
   --background-image: url(https://rgabrex.github.io/Venom-Theme/pics/venom_background.jpg);
   --background-position: center;
   --background-size: cover;
@@ -224,7 +224,7 @@ body {
   left: 0;
   position: absolute;
   z-index: -1;
-  background: var(--background-overlay);
+  background: var(--secondary-blue-color);
 }
 
 .theme-dark .directoryContainer_da3f59:before {
@@ -455,13 +455,13 @@ body {
 
 .tabBar_c2739c .addFriend_c2739c.addFriend_c2739c.addFriend_c2739c {
   background-color: var(--success-color);
-  color: var(--background-overlay);
+  color: var(--secondary-blue-color);
   box-shadow: 0 0 8px 2px var(--main-color);
 }
 
 .tabBar_c2739c .addFriend_c2739c.addFriend_c2739c.addFriend_c2739c:hover {
   background-color: var(--primary-red-color);
-  color: var(--background-overlay);
+  color: var(--secondary-blue-color);
   box-shadow: 0 0 10px 2px var(--primary-red-color);
 }
 
@@ -569,13 +569,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--background-overlay);
+  background-color: var(--secondary-blue-color);
   margin-bottom: 16px;
 }
 
 .lookFilled_dd4f85.colorGreen_dd4f85 {
   color: var(--white-500);
-  background-color: var(--background-overlay);
+  background-color: var(--secondary-blue-color);
 }
 
 .lookFilled_dd4f85.colorGreen_dd4f85:hover {
@@ -643,7 +643,7 @@ body {
   font-weight: 600;
   line-height: 30px;
   margin-top: 4px;
-  color: var(--background-overlay);
+  color: var(--secondary-blue-color);
 }
 
 .header_f9a4c9,
@@ -667,7 +667,7 @@ body {
   flex-shrink: 0;
   border-radius: 4px;
   overflow: hidden;
-  background-color: var(--background-overlay);
+  background-color: var(--secondary-blue-color);
 }
 
 .scroller_e6af9c,
@@ -697,13 +697,13 @@ body {
 
 .lookFilled_dd4f85.colorBrand_dd4f85 {
   background-color: var(--success-color);
-  color: var(--background-overlay);
+  color: var(--secondary-blue-color);
   box-shadow: 0 0 12px 3px var(--main-color);
 }
 
 .lookFilled_dd4f85.colorBrand_dd4f85:hover {
   background-color: var(--primary-red-color);
-  color: var(--background-overlay);
+  color: var(--secondary-blue-color);
   box-shadow: 0 0 10px 2px var(--primary-red-color);
 }
 
@@ -721,7 +721,7 @@ body {
 }
 
 .darkCardBackground_c23530 {
-  background-color: var(--background-overlay);
+  background-color: var(--secondary-blue-color);
 }
 
 .container_f8a938 {
@@ -750,7 +750,7 @@ body {
 
 .channelHeader_f3978e {
   align-items: center;
-  background-color: var(--background-overlay);
+  background-color: var(--secondary-blue-color);
   box-shadow: 3px 2px 2px #fff;
   border-radius: 8px;
   box-sizing: border-box;
@@ -805,7 +805,7 @@ body {
   padding: 6px 10px;
   margin-bottom: 5px;
   border-radius: 6px;
-  background: var(--background-overlay);
+  background: var(--secondary-blue-color);
   color: #fff;
 }
 
@@ -863,7 +863,7 @@ body {
 }
 
 .itemFilled_eb92a8 {
-  background-color: var(--background-overlay);
+  background-color: var(--secondary-blue-color);
 }
 
 .itemFilled_eb92a8[aria-checked="true"] {
@@ -890,7 +890,7 @@ body {
   flex-wrap: wrap;
   gap: var(--spacing-8);
   background-color: var(--success-color);
-  color: var(--background-overlay);
+  color: var(--secondary-blue-color);
   box-shadow: 0 0 6px 1px var(--main-color);
 }
 
@@ -899,7 +899,7 @@ body {
   flex-wrap: wrap;
   gap: var(--spacing-8);
   background-color: var(--primary-red-color);
-  color: var(--background-overlay);
+  color: var(--secondary-blue-color);
   box-shadow: 0 0 10px 2px var(--primary-red-color);
 }
 
@@ -1011,7 +1011,7 @@ body {
 }
 
 .embedFull_b0068a {
-  border-left: 4px solid var(--background-overlay);
+  border-left: 4px solid var(--secondary-blue-color);
   background: var(--primary-blue-color);
 }
 
