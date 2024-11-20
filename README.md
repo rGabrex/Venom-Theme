@@ -8,7 +8,7 @@
 
 <div align="center">
   
-# Venom v1
+# Venom
 [![Format Style: Prettier][prettier-badge]][prettier-link]
 ![Release][release-badge]
 [![License: Apache 2.0][apache-license]][license-link]
