@@ -18,6 +18,7 @@
 </div>
 
 ![First screenshot of the theme](https://github.com/rGabrex/Venom-Theme/blob/main/pics/screenshots/server_page_screenshot.jpg)
+![Second screenshot friends page](https://github.com/rGabrex/Venom-Theme/blob/main/pics/screenshots/friends_page_screenshot.jpg)
 
 
 ## Introduction ✍️
