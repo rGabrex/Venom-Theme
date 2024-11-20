@@ -4,4 +4,6 @@
 
 
 ## Installing
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec quam orci. Vestibulum in sem ut nisl bibendum accumsan. Vivamus scelerisque justo in accumsan tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam erat erat, lacinia non risus sed, scelerisque dignissim nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nunc metus, aliquam et turpis id, tempor sollicitudin massa. Nullam non lacus in elit luctus posuere. Pellentesque consectetur, quam sed euismod placerat, est ante eleifend diam, a ullamcorper sapien ligula sit amet nisi. Nulla facilisi. Etiam augue tellus, vehicula id mi eu, mollis.
+*__Please Note__* that I haven't worked with any plugin, so there's a chance some of them might create a conflict with the theme. If this happens, you can reach me on Discord or any other
+platform and I will fix the issue as soon as possible.
+
