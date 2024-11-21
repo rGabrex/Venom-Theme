@@ -50,6 +50,5 @@ If you encounter any problem, bug or anything feel free to reach me on _Discord_
 
 
 ## Credits ☑️
-Credits to [ClearVision](https://github.com/ClearVision/ClearVision-v6) for making the original theme.
 - Venom Background image: _Unknown_
 - Home Icon: [Icons.it](https://icons8.it/icons/)
